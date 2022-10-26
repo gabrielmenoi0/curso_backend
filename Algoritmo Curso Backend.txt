@@ -1,0 +1,24 @@
+algoritmo "ligar carro"
+
+declara : chave, carro
+
+ligarcarro(
+	carro.start();
+);
+
+naoligarcarro(
+	
+):
+
+inicio 
+
+	escreva("Digite o carro")
+	leia(carro)
+	escreva("Digite a chave")
+	leia(chave)
+	se chave pertence ao carro
+		ligarcarro() 
+	se chave não pertence ao carro
+		nãoligarcarro()
+
+fim
